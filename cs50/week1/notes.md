@@ -83,3 +83,67 @@ rm - remove
 rm -rf   - remove an entire directory 
 
 mv - move from source to destination (can rename)
+
+#Conditional Statements in C
+if ( boolean-expression )
+{
+    condition
+}
+else if (boolean-expression2)
+{
+
+}
+else
+{
+
+}
+
+
+int x = GetInt();
+-- switch -> if x is 2 then do case 2; (need break or it will do all stuff below it)
+switch(x)
+{
+    case 1:
+        printf("one");
+        break;
+    case 2:
+        printf("two");
+        break;
+    default:
+        print("BLAST OFF");
+}
+
+
+?;
+int x = (expr) ? 5 : 6;
+^ if else statements in short form for C; if true then 5 else 6. 
+
+
+#data types in C
+ 
+int - 4 bytes (32 bits)
+range -2^31  - 2^31 - 1
+
+unsigned int (doubles the number of postives values if you know you will not need negatives numbers)
+
+char - 1 byte (8 bits)
+range -128 - 127
+
+float - 4 bytes of memory
+no real range, determined by number of demcimal point
+
+double - 8 bytes (64 bits)
+additional 32 bits of precision
+
+void - is a type not a data type;  (placeholder)
+
+cs50.h (additional types)
+
+bool - boolean data type
+
+string - collections of characters;
+
+create multiple var of the same types
+
+int height, width;
+--creates 2 variables ;
